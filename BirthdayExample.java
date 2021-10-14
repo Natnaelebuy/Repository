@@ -1,5 +1,6 @@
 package src;
 
+
 import java.io.*;
 import java.util.*;
 import org.json.simple.*;
@@ -52,9 +53,9 @@ public class BirthdayExample {
         System.out.println("Reading user input into a string");
 
         // get user input
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter a name:");
-        String name = input.nextLine();
+       // Scanner input = new Scanner(System.in);
+        //System.out.print("Enter a name:");
+        //String name = input.nextLine();
         
         // print user input
         System.out.println("name = " + name);
@@ -92,6 +93,35 @@ public class BirthdayExample {
             System.out.println("name = " + name);
             System.out.println("birthday = " + birthday);
 
+            // how to read user input from keyboard
+            //
+            Sytsem.out.printlin("Reading user input into a string");
+
+            // get user input
+
+            System.out.print("Enter a name");
+            name = input.netline();
+
+            //print user input 
+
+            System.out.println("name = " + name);
+
+            // close the scanner
+            // input.close();
+
+            // birthday look up 
+            Sytem.out.println("Birthday = " + birthdayMap.get(name));
+
+            // another birthday lookup
+
+            System.out.println("Do you want to look another birthday? Y or N");
+            answer = input.netline();
+
+       
+       
+       
+       
+       
         }
 
 
